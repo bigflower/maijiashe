@@ -1,0 +1,5 @@
+<if condition="($actionName eq 'index')">
+	<load href="{:C('static')}/css/home.css" />
+<elseif condition="$actionName eq 'view'"/>
+	<load href="{:C('static')}/css/view.css" />
+</if>

@@ -1,0 +1,123 @@
+@charset "utf-8";
+// 应用列表
+.appbox {
+	width:950px;
+	overflow:hidden;
+	margin-bottom:30px;
+	.appbox_list {
+		width:950px;
+		overflow:hidden;
+		ul {
+			width:950px;
+			overflow:hidden;
+			li {
+				float:left;
+				width:948px;
+				border:1px solid #e5e5e5;
+				height:100px;
+				background:#f8f8f8;
+				overflow:hidden;
+				margin-bottom:20px;
+				.appinfo {
+					width:738px;
+					border-right:1px solid #e5e5e5;
+					height:100px;
+					overflow:hidden;
+					position:relative;
+					h4 {
+						font-size:18px;
+						font-family:"Microsoft YaHei";
+						overflow:hidden;
+						height:20px;
+						line-height:18px;
+						color:#454545;
+						font-weight:normal;
+						position:absolute;
+						top:16px;
+						left:20px;
+						width:708px;
+					}
+					p {
+						color:#999;
+						font-size:12px;
+						font-family:"宋体";
+						line-height:18px;
+						overflow:hidden;
+						position:absolute;
+						left:20px;
+						top:45px;
+						width:708px;
+					}
+					.number {
+						position:absolute;
+						right:10px;
+						top:20px;
+						color:#0068b7;
+					}
+				}
+				.app_start {
+					width:209px;
+					height:100px;
+					overflow:hidden;
+					position:relative;
+					background:#fff;
+					.appshare {
+						width:175px;
+						height:24px;
+						overflow:hidden;
+						position:absolute;
+						left:22px;
+						top:15px;
+						a {
+							width:24px;
+							height:24px;
+							display:block;
+							overflow:hidden;
+							float:left;
+							margin-right:5px;
+							background:url(../img/share_btn.png) no-repeat;
+							&.tq {
+								background-position:0 0;
+							}
+							&.zone {
+								background-position:-29px 0 ;
+							}
+							&.dou {
+								background-position:-58px 0 ;
+							}
+							&.sina {
+								background-position:-87px 0 ;
+							}
+							&.renren {
+								background-position:-116px 0 ;
+							}
+							&.taobao {
+								background-position:-145px 0 ;
+							}
+						}
+					}
+					.appstart_btn {
+						position:absolute;
+						left:45px;
+						top:51px;
+						width:130px;
+						height:35px;
+						overflow:hidden;
+						a {
+							display:block;
+							height:35px;
+							background:#68bbef;
+							color:#fff;
+							text-align:center;
+							line-height:35px;
+							overflow:hidden;
+							font-size:18px;
+							font-family:"Microsoft YaHei";
+							font-weight:normal;
+						}
+					}
+				}
+			}
+		}
+	}
+}
